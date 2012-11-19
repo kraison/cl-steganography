@@ -1,4 +1,4 @@
-(in-package :steganography)
+(in-package :cl-steganography)
 
 (defvar *text-header*
   #2A((1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0)

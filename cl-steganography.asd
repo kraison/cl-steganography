@@ -1,9 +1,9 @@
 ;; ASDF package description for steganography              -*- Lisp -*-
 
-(defpackage :steganography-system (:use :cl :asdf))
-(in-package :steganography-system)
+(defpackage :cl-steganography-system (:use :cl :asdf))
+(in-package :cl-steganography-system)
 
-(defsystem steganography
+(defsystem cl-steganography
   :name "Image Steganography Library"
   :maintainer "Kevin Raison"
   :author "Kevin Raison <last name @ chatsubo dot net>"

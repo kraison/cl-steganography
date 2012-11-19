@@ -1,4 +1,4 @@
-(in-package :steganography)
+(in-package :cl-steganography)
 
 (defparameter *rgb-black* #0xffffff)
 

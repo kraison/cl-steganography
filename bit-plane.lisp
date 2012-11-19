@@ -1,4 +1,4 @@
-(in-package :steganography)
+(in-package :cl-steganography)
 
 (defun shift-color (color &optional (bits -4))
   (multiple-value-bind (r g b) (imago:color-rgb color)

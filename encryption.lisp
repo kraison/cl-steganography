@@ -1,4 +1,4 @@
-(in-package :steganography)
+(in-package :cl-steganography)
 
 (defun encrypt-text (plaintext password)
   (let* ((iv (ironclad:ascii-string-to-byte-array password))

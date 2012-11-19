@@ -1,4 +1,4 @@
-(in-package :steganography)
+(in-package :cl-steganography)
 
 (defun flatten (x)
   (labels ((rec (x acc)

@@ -1,5 +1,5 @@
 (in-package #:cl-user)
 
-(defpackage #:steganography
+(defpackage #:cl-steganography
   (:use #:cl #:cl-ppcre #:imago)
-  (:export #:combine-images))
+  (:export #:hide-image #:decode-image))

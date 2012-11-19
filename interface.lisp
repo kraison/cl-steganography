@@ -1,4 +1,4 @@
-(in-package :steganography)
+(in-package :cl-steganography)
 
 (defun convert-image-to-png (image-file)
   (if (scan "\.png$" image-file)
